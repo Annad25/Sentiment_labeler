@@ -1,0 +1,19 @@
+# secrets — never commit
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# tooling / editors / OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Note: results/ is intentionally committed as sample evidence (see README).
+# Re-running the eval will modify those files locally.

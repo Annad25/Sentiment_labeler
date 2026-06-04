@@ -1,0 +1,101 @@
+id,snippet,expected,predicted,correct,raw_output,error,latency_ms,provider,model
+1,"I really appreciated the call, thank you so much for following up.",positive,positive,True,positive,,6514,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+2,"This sounds great, please send me the details.",positive,positive,True,positive,,4918,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+3,"Yes, I'd love to schedule a meeting next week.",positive,positive,True,positive,,4434,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+4,"I've been looking for something like this, perfect timing.",positive,positive,True,positive,,4888,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+5,"That's exactly what I needed to hear, thanks.",positive,positive,True,positive,,5306,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+6,"Wonderful, count me in.",positive,positive,True,positive,,4460,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+7,"I'm definitely interested, let's move forward.",positive,positive,True,positive,,4665,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+8,Thanks for explaining everything so clearly.,positive,positive,True,positive,,4837,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+9,"Yes, please go ahead and book me in.",positive,positive,True,positive,,5157,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+10,"This is fantastic news, I appreciate it.",positive,positive,True,positive,,4857,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+11,I'm really happy with this offer.,positive,positive,True,positive,,4530,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+12,That works perfectly for me.,positive,positive,True,positive,,5202,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+13,"Excellent, I look forward to hearing more.",positive,positive,True,positive,,3579,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+14,"Yes, you can put me down for that.",positive,positive,True,positive,,5315,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+15,"I love that idea, let's do it.",negative,positive,False,positive,,5051,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+16,That sounds like a great deal honestly.,positive,positive,True,positive,,3833,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+17,"I'm sold, let me know the next steps.",positive,positive,True,positive,,3450,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+18,"Perfect, I'll see you Tuesday then.",positive,positive,True,positive,,4485,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+19,"Great, I'm glad we connected today.",positive,positive,True,positive,,4062,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+20,"I'm impressed, this is well thought through.",positive,positive,True,positive,,3389,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+21,"Yes, sign me up please.",positive,positive,True,positive,,4167,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+22,"Thank you, I'll definitely consider this seriously.",positive,neutral,False,neutral,,3706,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+23,I'd be very interested in learning more about pricing.,positive,neutral,False,neutral,,4401,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+24,"Brilliant, I appreciate you reaching out.",positive,positive,True,positive,,3870,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+25,"Yes, this is exactly what we've been needing.",positive,positive,True,positive,,4116,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+26,I'm happy to discuss this further.,positive,positive,True,positive,,3949,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+27,"Sounds wonderful, please email me the contract.",positive,positive,True,positive,,4828,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+28,"Yes please, I'd like to proceed.",positive,positive,True,positive,,4150,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+29,"Glad you called, this looks promising.",positive,positive,True,positive,,4217,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+30,I'm on board with this approach.,positive,positive,True,positive,,3993,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+31,"Excellent presentation, very clear.",positive,positive,True,positive,,4164,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+32,"Yes, let's set up a demo.",positive,positive,True,positive,,3744,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+33,I think this will work well for us.,positive,positive,True,positive,,3806,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+34,"Thanks, I'm definitely leaning yes.",positive,positive,True,positive,,3911,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+35,"Wonderful, I'll get back to you by Friday.",positive,positive,True,positive,,3817,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+36,"Yes please, I’d like to proceed.",positive,positive,True,positive,,3789,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+37,I really like what you're offering.,positive,positive,True,positive,,4521,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+38,"Great, let me know the timing.",positive,positive,True,positive,,3535,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+39,"This is helpful, thank you for your time.",positive,positive,True,positive,,4273,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+40,I'm happy to commit to a pilot.,positive,positive,True,positive,,4051,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+41,"Yes, please schedule the next call.",positive,positive,True,positive,,4378,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+42,"That's a fair offer, I'll take it.",positive,positive,True,positive,,4609,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+43,I appreciate the thorough explanation.,positive,positive,True,positive,,4253,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+44,"Yes, I'd like to move forward today.",positive,positive,True,positive,,3744,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+45,"Glad we could chat, very useful.",positive,positive,True,positive,,3294,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+46,"Perfect, that timing works.",positive,positive,True,positive,,3868,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+47,I'd be very interested in learning more about pricing,neutral,neutral,True,neutral,,4295,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+48,Looking forward to working together.,positive,positive,True,positive,,3476,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+49,I'm in. Send the paperwork.,positive,positive,True,positive,,3919,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+50,"That's wonderful news, thanks for letting me know.",positive,positive,True,positive,,4016,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+51,"No thanks, I'm not interested.",negative,negative,True,negative,,3589,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+52,Please remove me from your list.,negative,negative,True,negative,,4047,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+53,"I told you last time, stop calling.",negative,negative,True,negative,,3545,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+54,"This is the third call this week, please stop.",negative,negative,True,negative,,4272,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+55,"I'm not the right person, please don't call again.",negative,negative,True,negative,,3816,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+56,"We already have a vendor, we're not switching.",negative,negative,True,negative,,4278,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+57,This is way out of our budget.,negative,negative,True,negative,,3988,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+58,"Honestly, I'm frustrated by these calls.",negative,negative,True,negative,,4679,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+59,"We already have a vendor, we're not switching.",positive,negative,False,negative,,3885,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+60,I don't have time for this right now.,negative,negative,True,negative,,3902,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+61,Take me off your list permanently.,negative,negative,True,negative,,3930,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+62,I'm not going to do business with you.,negative,negative,True,negative,,4320,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+63,"Your pricing is absurd, this isn't going to work.",negative,negative,True,negative,,3370,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+64,"I've heard this pitch a hundred times, no.",negative,negative,True,negative,,4146,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+65,Stop emailing me too while you're at it.,negative,negative,True,negative,,3680,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+66,This doesn't match what your website said.,negative,negative,True,negative,,3758,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+67,"I asked for a callback at 2pm, not now.",negative,negative,True,negative,,3801,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+68,"Frankly, this is wasting both our time.",negative,negative,True,negative,,4705,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+69,"Not interested, goodbye.",negative,negative,True,negative,,3789,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+70,Please don't transfer me to anyone else.,negative,negative,True,negative,,3617,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+71,"Yeah, fine, I guess we can talk about it.",neutral,neutral,True,neutral,,4157,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+72,I don't believe the numbers you're quoting.,negative,negative,True,negative,,4442,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+73,"I'm not saying no, but I'm not saying yes either.",neutral,neutral,True,neutral,,3945,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+74,Your competitor is offering half the price.,negative,negative,True,negative,,4605,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+75,"Look, I'll be honest, I'm on the fence about this.",neutral,neutral,True,neutral,,4870,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+76,Stop. Calling. Me.,negative,negative,True,negative,,3623,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+77,This isn't the right time or fit.,negative,negative,True,negative,,3692,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+78,I don't want to hear it.,negative,negative,True,negative,,3448,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+79,"Why do you keep calling me, please stop.",negative,negative,True,negative,,3128,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+80,"I'm really not interested, sorry.",negative,negative,True,negative,,4527,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+81,Can you send me more information by email?,neutral,neutral,True,neutral,,4559,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+82,What's the price for the standard package?,neutral,neutral,True,neutral,,4223,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+83,Who else have you worked with in our industry?,neutral,neutral,True,neutral,,3941,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+84,I'll need to check with my manager first.,neutral,neutral,True,neutral,,4105,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+85,Can you call back in two weeks?,neutral,neutral,True,neutral,,5231,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+86,What's the typical implementation timeline?,neutral,neutral,True,neutral,,3812,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+87,I need to think about it.,neutral,neutral,True,neutral,,4587,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+88,Can you clarify the contract terms?,neutral,neutral,True,neutral,,3350,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+89,What happens if we want to cancel?,neutral,neutral,True,neutral,,3771,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+90,Is there a free trial available?,negative,neutral,False,neutral,,4036,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+91,How do you compare to your competitors?,neutral,neutral,True,neutral,,5335,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+92,I'm gathering information from a few vendors.,neutral,neutral,True,neutral,,5221,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+93,Can you send me a case study?,neutral,neutral,True,neutral,,3787,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+94,What does the onboarding process look like?,neutral,neutral,True,neutral,,4823,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+95,I'll discuss with my team and circle back.,neutral,neutral,True,neutral,,4066,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+96,Do you have references I can speak with?,neutral,neutral,True,neutral,,4103,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+97,What are the payment terms?,neutral,neutral,True,neutral,,4104,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+98,Can we schedule a follow-up next month?,neutral,neutral,True,neutral,,3998,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+99,I'm just exploring options right now.,neutral,neutral,True,neutral,,4113,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1
+100,Please email me the details and I'll review.,neutral,neutral,True,neutral,,4293,openrouter:deepseek-nex,nex-agi/deepseek-v3.1-nex-n1

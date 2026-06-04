@@ -1,0 +1,149 @@
+{
+  "config": {
+    "model": "gpt-5-mini",
+    "temperature": null,
+    "reasoning_effort": "minimal",
+    "few_shot": true,
+    "max_concurrency": 10,
+    "max_retries": 3,
+    "request_timeout_s": 30.0,
+    "dataset_path": "C:\\Users\\fatba\\Downloads\\sentiment-eval\\data\\sentiment_eval_dataset.csv",
+    "results_dir": "results\\fewshot"
+  },
+  "metrics": {
+    "raw_accuracy": 0.93,
+    "adjusted_accuracy_excluding_suspect_labels": 0.9479,
+    "majority_baseline_accuracy": 0.49,
+    "total": 100,
+    "correct": 93,
+    "unparseable": 0,
+    "errored": 0,
+    "per_class": [
+      {
+        "label": "positive",
+        "support": 49,
+        "precision": 0.9778,
+        "recall": 0.898,
+        "f1": 0.9362
+      },
+      {
+        "label": "neutral",
+        "support": 23,
+        "precision": 0.8214,
+        "recall": 1.0,
+        "f1": 0.902
+      },
+      {
+        "label": "negative",
+        "support": 28,
+        "precision": 0.963,
+        "recall": 0.9286,
+        "f1": 0.9455
+      }
+    ],
+    "confusion_matrix": {
+      "positive": {
+        "positive": 44,
+        "neutral": 4,
+        "negative": 1,
+        "unparseable": 0
+      },
+      "neutral": {
+        "positive": 0,
+        "neutral": 23,
+        "negative": 0,
+        "unparseable": 0
+      },
+      "negative": {
+        "positive": 1,
+        "neutral": 1,
+        "negative": 26,
+        "unparseable": 0
+      }
+    },
+    "provider_usage": {
+      "openai": 100
+    }
+  },
+  "data_quality": {
+    "exact_duplicates_with_conflicting_labels": [
+      {
+        "id_a": 56,
+        "id_b": 59,
+        "snippet": "We already have a vendor, we're not switching."
+      }
+    ],
+    "near_duplicates_with_conflicting_labels": [
+      {
+        "id_a": 23,
+        "id_b": 47,
+        "snippet_a": "I'd be very interested in learning more about pricing.",
+        "snippet_b": "I'd be very interested in learning more about pricing"
+      }
+    ],
+    "excluded_from_adjusted_accuracy": [
+      23,
+      47,
+      56,
+      59
+    ]
+  },
+  "disagreements": [
+    {
+      "id": 15,
+      "snippet": "I love that idea, let's do it.",
+      "expected": "negative",
+      "predicted": "positive",
+      "raw_output": "{\"sentiment\":\"positive\"}",
+      "error": null
+    },
+    {
+      "id": 22,
+      "snippet": "Thank you, I'll definitely consider this seriously.",
+      "expected": "positive",
+      "predicted": "neutral",
+      "raw_output": "{\"sentiment\":\"neutral\"}",
+      "error": null
+    },
+    {
+      "id": 23,
+      "snippet": "I'd be very interested in learning more about pricing.",
+      "expected": "positive",
+      "predicted": "neutral",
+      "raw_output": "{\"sentiment\":\"neutral\"}",
+      "error": null
+    },
+    {
+      "id": 35,
+      "snippet": "Wonderful, I'll get back to you by Friday.",
+      "expected": "positive",
+      "predicted": "neutral",
+      "raw_output": "{\"sentiment\":\"neutral\"}",
+      "error": null
+    },
+    {
+      "id": 38,
+      "snippet": "Great, let me know the timing.",
+      "expected": "positive",
+      "predicted": "neutral",
+      "raw_output": "{\"sentiment\":\"neutral\"}",
+      "error": null
+    },
+    {
+      "id": 59,
+      "snippet": "We already have a vendor, we're not switching.",
+      "expected": "positive",
+      "predicted": "negative",
+      "raw_output": "{\"sentiment\":\"negative\"}",
+      "error": null
+    },
+    {
+      "id": 90,
+      "snippet": "Is there a free trial available?",
+      "expected": "negative",
+      "predicted": "neutral",
+      "raw_output": "{\"sentiment\":\"neutral\"}",
+      "error": null
+    }
+  ]
+}

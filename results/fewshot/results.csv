@@ -1,0 +1,101 @@
+id,snippet,expected,predicted,correct,raw_output,error,latency_ms,provider,model
+1,"I really appreciated the call, thank you so much for following up.",positive,positive,True,"{""sentiment"":""positive""}",,1865,openai,gpt-5-mini
+2,"This sounds great, please send me the details.",positive,positive,True,"{""sentiment"":""positive""}",,1421,openai,gpt-5-mini
+3,"Yes, I'd love to schedule a meeting next week.",positive,positive,True,"{""sentiment"":""positive""}",,1351,openai,gpt-5-mini
+4,"I've been looking for something like this, perfect timing.",positive,positive,True,"{""sentiment"":""positive""}",,1337,openai,gpt-5-mini
+5,"That's exactly what I needed to hear, thanks.",positive,positive,True,"{""sentiment"":""positive""}",,1339,openai,gpt-5-mini
+6,"Wonderful, count me in.",positive,positive,True,"{""sentiment"":""positive""}",,1340,openai,gpt-5-mini
+7,"I'm definitely interested, let's move forward.",positive,positive,True,"{""sentiment"":""positive""}",,1736,openai,gpt-5-mini
+8,Thanks for explaining everything so clearly.,positive,positive,True,"{""sentiment"":""positive""}",,1515,openai,gpt-5-mini
+9,"Yes, please go ahead and book me in.",positive,positive,True,"{""sentiment"":""positive""}",,1396,openai,gpt-5-mini
+10,"This is fantastic news, I appreciate it.",positive,positive,True,"{""sentiment"":""positive""}",,1336,openai,gpt-5-mini
+11,I'm really happy with this offer.,positive,positive,True,"{""sentiment"":""positive""}",,1209,openai,gpt-5-mini
+12,That works perfectly for me.,positive,positive,True,"{""sentiment"":""positive""}",,1018,openai,gpt-5-mini
+13,"Excellent, I look forward to hearing more.",positive,positive,True,"{""sentiment"":""positive""}",,1045,openai,gpt-5-mini
+14,"Yes, you can put me down for that.",positive,positive,True,"{""sentiment"":""positive""}",,1018,openai,gpt-5-mini
+15,"I love that idea, let's do it.",negative,positive,False,"{""sentiment"":""positive""}",,1109,openai,gpt-5-mini
+16,That sounds like a great deal honestly.,positive,positive,True,"{""sentiment"":""positive""}",,1144,openai,gpt-5-mini
+17,"I'm sold, let me know the next steps.",positive,positive,True,"{""sentiment"":""positive""}",,981,openai,gpt-5-mini
+18,"Perfect, I'll see you Tuesday then.",positive,positive,True,"{""sentiment"":""positive""}",,1150,openai,gpt-5-mini
+19,"Great, I'm glad we connected today.",positive,positive,True,"{""sentiment"":""positive""}",,1165,openai,gpt-5-mini
+20,"I'm impressed, this is well thought through.",positive,positive,True,"{""sentiment"":""positive""}",,963,openai,gpt-5-mini
+21,"Yes, sign me up please.",positive,positive,True,"{""sentiment"":""positive""}",,1512,openai,gpt-5-mini
+22,"Thank you, I'll definitely consider this seriously.",positive,neutral,False,"{""sentiment"":""neutral""}",,1008,openai,gpt-5-mini
+23,I'd be very interested in learning more about pricing.,positive,neutral,False,"{""sentiment"":""neutral""}",,967,openai,gpt-5-mini
+24,"Brilliant, I appreciate you reaching out.",positive,positive,True,"{""sentiment"":""positive""}",,1011,openai,gpt-5-mini
+25,"Yes, this is exactly what we've been needing.",positive,positive,True,"{""sentiment"":""positive""}",,1017,openai,gpt-5-mini
+26,I'm happy to discuss this further.,positive,positive,True,"{""sentiment"":""positive""}",,1132,openai,gpt-5-mini
+27,"Sounds wonderful, please email me the contract.",positive,positive,True,"{""sentiment"":""positive""}",,1012,openai,gpt-5-mini
+28,"Yes please, I'd like to proceed.",positive,positive,True,"{""sentiment"":""positive""}",,1011,openai,gpt-5-mini
+29,"Glad you called, this looks promising.",positive,positive,True,"{""sentiment"":""positive""}",,974,openai,gpt-5-mini
+30,I'm on board with this approach.,positive,positive,True,"{""sentiment"":""positive""}",,954,openai,gpt-5-mini
+31,"Excellent presentation, very clear.",positive,positive,True,"{""sentiment"":""positive""}",,1006,openai,gpt-5-mini
+32,"Yes, let's set up a demo.",positive,positive,True,"{""sentiment"":""positive""}",,1289,openai,gpt-5-mini
+33,I think this will work well for us.,positive,positive,True,"{""sentiment"":""positive""}",,1627,openai,gpt-5-mini
+34,"Thanks, I'm definitely leaning yes.",positive,positive,True,"{""sentiment"":""positive""}",,974,openai,gpt-5-mini
+35,"Wonderful, I'll get back to you by Friday.",positive,neutral,False,"{""sentiment"":""neutral""}",,1031,openai,gpt-5-mini
+36,"Yes please, I’d like to proceed.",positive,positive,True,"{""sentiment"":""positive""}",,988,openai,gpt-5-mini
+37,I really like what you're offering.,positive,positive,True,"{""sentiment"":""positive""}",,923,openai,gpt-5-mini
+38,"Great, let me know the timing.",positive,neutral,False,"{""sentiment"":""neutral""}",,1077,openai,gpt-5-mini
+39,"This is helpful, thank you for your time.",positive,positive,True,"{""sentiment"":""positive""}",,988,openai,gpt-5-mini
+40,I'm happy to commit to a pilot.,positive,positive,True,"{""sentiment"":""positive""}",,963,openai,gpt-5-mini
+41,"Yes, please schedule the next call.",positive,positive,True,"{""sentiment"":""positive""}",,1301,openai,gpt-5-mini
+42,"That's a fair offer, I'll take it.",positive,positive,True,"{""sentiment"":""positive""}",,996,openai,gpt-5-mini
+43,I appreciate the thorough explanation.,positive,positive,True,"{""sentiment"":""positive""}",,1121,openai,gpt-5-mini
+44,"Yes, I'd like to move forward today.",positive,positive,True,"{""sentiment"":""positive""}",,1303,openai,gpt-5-mini
+45,"Glad we could chat, very useful.",positive,positive,True,"{""sentiment"":""positive""}",,1158,openai,gpt-5-mini
+46,"Perfect, that timing works.",positive,positive,True,"{""sentiment"":""positive""}",,1084,openai,gpt-5-mini
+47,I'd be very interested in learning more about pricing,neutral,neutral,True,"{""sentiment"":""neutral""}",,1124,openai,gpt-5-mini
+48,Looking forward to working together.,positive,positive,True,"{""sentiment"":""positive""}",,1141,openai,gpt-5-mini
+49,I'm in. Send the paperwork.,positive,positive,True,"{""sentiment"":""positive""}",,1936,openai,gpt-5-mini
+50,"That's wonderful news, thanks for letting me know.",positive,positive,True,"{""sentiment"":""positive""}",,949,openai,gpt-5-mini
+51,"No thanks, I'm not interested.",negative,negative,True,"{""sentiment"":""negative""}",,1147,openai,gpt-5-mini
+52,Please remove me from your list.,negative,negative,True,"{""sentiment"":""negative""}",,1067,openai,gpt-5-mini
+53,"I told you last time, stop calling.",negative,negative,True,"{""sentiment"":""negative""}",,1091,openai,gpt-5-mini
+54,"This is the third call this week, please stop.",negative,negative,True,"{""sentiment"":""negative""}",,1227,openai,gpt-5-mini
+55,"I'm not the right person, please don't call again.",negative,negative,True,"{""sentiment"":""negative""}",,1041,openai,gpt-5-mini
+56,"We already have a vendor, we're not switching.",negative,negative,True,"{""sentiment"":""negative""}",,970,openai,gpt-5-mini
+57,This is way out of our budget.,negative,negative,True,"{""sentiment"":""negative""}",,974,openai,gpt-5-mini
+58,"Honestly, I'm frustrated by these calls.",negative,negative,True,"{""sentiment"":""negative""}",,1090,openai,gpt-5-mini
+59,"We already have a vendor, we're not switching.",positive,negative,False,"{""sentiment"":""negative""}",,1111,openai,gpt-5-mini
+60,I don't have time for this right now.,negative,negative,True,"{""sentiment"":""negative""}",,1000,openai,gpt-5-mini
+61,Take me off your list permanently.,negative,negative,True,"{""sentiment"":""negative""}",,1287,openai,gpt-5-mini
+62,I'm not going to do business with you.,negative,negative,True,"{""sentiment"":""negative""}",,925,openai,gpt-5-mini
+63,"Your pricing is absurd, this isn't going to work.",negative,negative,True,"{""sentiment"":""negative""}",,930,openai,gpt-5-mini
+64,"I've heard this pitch a hundred times, no.",negative,negative,True,"{""sentiment"":""negative""}",,1009,openai,gpt-5-mini
+65,Stop emailing me too while you're at it.,negative,negative,True,"{""sentiment"":""negative""}",,944,openai,gpt-5-mini
+66,This doesn't match what your website said.,negative,negative,True,"{""sentiment"":""negative""}",,910,openai,gpt-5-mini
+67,"I asked for a callback at 2pm, not now.",negative,negative,True,"{""sentiment"":""negative""}",,1028,openai,gpt-5-mini
+68,"Frankly, this is wasting both our time.",negative,negative,True,"{""sentiment"":""negative""}",,980,openai,gpt-5-mini
+69,"Not interested, goodbye.",negative,negative,True,"{""sentiment"":""negative""}",,983,openai,gpt-5-mini
+70,Please don't transfer me to anyone else.,negative,negative,True,"{""sentiment"":""negative""}",,1186,openai,gpt-5-mini
+71,"Yeah, fine, I guess we can talk about it.",neutral,neutral,True,"{""sentiment"":""neutral""}",,1529,openai,gpt-5-mini
+72,I don't believe the numbers you're quoting.,negative,negative,True,"{""sentiment"":""negative""}",,981,openai,gpt-5-mini
+73,"I'm not saying no, but I'm not saying yes either.",neutral,neutral,True,"{""sentiment"":""neutral""}",,966,openai,gpt-5-mini
+74,Your competitor is offering half the price.,negative,negative,True,"{""sentiment"":""negative""}",,987,openai,gpt-5-mini
+75,"Look, I'll be honest, I'm on the fence about this.",neutral,neutral,True,"{""sentiment"":""neutral""}",,1285,openai,gpt-5-mini
+76,Stop. Calling. Me.,negative,negative,True,"{""sentiment"":""negative""}",,1270,openai,gpt-5-mini
+77,This isn't the right time or fit.,negative,negative,True,"{""sentiment"":""negative""}",,1179,openai,gpt-5-mini
+78,I don't want to hear it.,negative,negative,True,"{""sentiment"":""negative""}",,1006,openai,gpt-5-mini
+79,"Why do you keep calling me, please stop.",negative,negative,True,"{""sentiment"":""negative""}",,1057,openai,gpt-5-mini
+80,"I'm really not interested, sorry.",negative,negative,True,"{""sentiment"":""negative""}",,1075,openai,gpt-5-mini
+81,Can you send me more information by email?,neutral,neutral,True,"{""sentiment"":""neutral""}",,888,openai,gpt-5-mini
+82,What's the price for the standard package?,neutral,neutral,True,"{""sentiment"":""neutral""}",,1023,openai,gpt-5-mini
+83,Who else have you worked with in our industry?,neutral,neutral,True,"{""sentiment"":""neutral""}",,964,openai,gpt-5-mini
+84,I'll need to check with my manager first.,neutral,neutral,True,"{""sentiment"":""neutral""}",,961,openai,gpt-5-mini
+85,Can you call back in two weeks?,neutral,neutral,True,"{""sentiment"":""neutral""}",,958,openai,gpt-5-mini
+86,What's the typical implementation timeline?,neutral,neutral,True,"{""sentiment"":""neutral""}",,1021,openai,gpt-5-mini
+87,I need to think about it.,neutral,neutral,True,"{""sentiment"":""neutral""}",,1167,openai,gpt-5-mini
+88,Can you clarify the contract terms?,neutral,neutral,True,"{""sentiment"":""neutral""}",,1077,openai,gpt-5-mini
+89,What happens if we want to cancel?,neutral,neutral,True,"{""sentiment"":""neutral""}",,957,openai,gpt-5-mini
+90,Is there a free trial available?,negative,neutral,False,"{""sentiment"":""neutral""}",,1013,openai,gpt-5-mini
+91,How do you compare to your competitors?,neutral,neutral,True,"{""sentiment"":""neutral""}",,876,openai,gpt-5-mini
+92,I'm gathering information from a few vendors.,neutral,neutral,True,"{""sentiment"":""neutral""}",,975,openai,gpt-5-mini
+93,Can you send me a case study?,neutral,neutral,True,"{""sentiment"":""neutral""}",,1292,openai,gpt-5-mini
+94,What does the onboarding process look like?,neutral,neutral,True,"{""sentiment"":""neutral""}",,1003,openai,gpt-5-mini
+95,I'll discuss with my team and circle back.,neutral,neutral,True,"{""sentiment"":""neutral""}",,1016,openai,gpt-5-mini
+96,Do you have references I can speak with?,neutral,neutral,True,"{""sentiment"":""neutral""}",,952,openai,gpt-5-mini
+97,What are the payment terms?,neutral,neutral,True,"{""sentiment"":""neutral""}",,890,openai,gpt-5-mini
+98,Can we schedule a follow-up next month?,neutral,neutral,True,"{""sentiment"":""neutral""}",,1102,openai,gpt-5-mini
+99,I'm just exploring options right now.,neutral,neutral,True,"{""sentiment"":""neutral""}",,1042,openai,gpt-5-mini
+100,Please email me the details and I'll review.,neutral,neutral,True,"{""sentiment"":""neutral""}",,939,openai,gpt-5-mini
